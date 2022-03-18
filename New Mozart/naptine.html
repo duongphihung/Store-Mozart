@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./anh/gp.png">
+    <link rel="stylesheet" type="text/css" href="./css/DemoCSS.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <title>Nạp Tiền</title>
+    <style>
+        body{
+background-color: #165473;
+}
+    </style>
+
+</head>
+<body>
+    <img src="./anh/bg1.jpg" style="width: 100%; height: 750px; z-index: -3;" >
+    <div class="main">   
+        <h1>Nạp tiền</h1>
+        <form>
+            <p> Loại thẻ </p>
+                <select class="custom-select  mb-3">
+                <option selected>Thẻ viettel</option>
+                <option value="Nhật Bản">Mobiphone</option>
+                <option value="Hàn Quốc">Vinaphone</option>
+              </select>
+            <p> Số seri <input type="text" name="" placeholder="Số serial thẻ"> </p>
+            <p> Mã thẻ <input type="text" name="" placeholder="mã thẻ"></p>
+            <p> Tên đăng nhập <input type="text" name="" placeholder="*Tên đăng nhập"></p>
+            <p> Mật khẩu <input type="password" name="" placeholder="*Mật Khẩu"></p>
+            (*) Lưu ý các trường hợp nạp lỗi gây mất thẻ:<br>
+             <ol start="1"> 
+                    <li>Nhập sai Seri nhưng đúng mã thẻ</li>
+                    <li>Nhập sai mã thẻ nhưng đúng seri</li>
+                    <li>Nhập sai mệch giá( đúng seri và mã thẻ) </li>
+                    Khách hàng vui lòng kiểm tra thật kỹ thông tin để tránh mất thẻ! <br>
+                </ol>
+                <input type="submit" name="" value="Nạp thẻ">
+
+        </form>
+    </div>
+</body>
+</html>
